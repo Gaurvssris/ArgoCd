@@ -1,0 +1,20 @@
+
+replicaCount: 1
+
+image:
+  repository: gssdevacr.azurecr.io/diwali-app
+  tag: "1.0"
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 80
+
+resources:
+  requests:
+    cpu: 50m
+    memory: 64Mi
+  limits:
+    cpu: 250m
+    memory: 128Mi
