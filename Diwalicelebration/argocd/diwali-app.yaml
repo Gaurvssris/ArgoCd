@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Gaurvssris/ArgoCd.git
     targetRevision: main
-    path: helm/diwali-app
+    path: Diwalicelebration/helm/diwali-app
     helm:
       releaseName: diwali-app
 
