@@ -3,7 +3,7 @@ replicaCount: 1
 
 image:
   repository: gssdevacr.azurecr.io/diwali-app
-  tag: v1
+  tag: "v1"
   pullPolicy: IfNotPresent
 
 service:
